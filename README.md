@@ -44,7 +44,7 @@ On a Mac, run `chmod +x "Open Dashboard.command"` once in Terminal so it can be 
   `python data_pipeline.py --check-all`.
 * If RMA can't be reached, the dashboard shows the last data it has and says so at the top.
 
-## Developer notes
+## Notes
 
 * Run the pipeline directly: `python data_pipeline.py [--year 2025 2026] [--history N] [--check-all] [--refresh]`.
 * Run the dashboard directly: `streamlit run dashboard.py` (inside `.venv`). Settings are at the top of the file.
