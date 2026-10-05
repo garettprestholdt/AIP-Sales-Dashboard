@@ -1,10 +1,16 @@
 {
-  "built_at": "2026-10-05T14:33:52+00:00",
+  "built_at": "2026-10-05T15:34:44+00:00",
   "crop_years": [
-    2026
+    2024,
+    2025,
+    2026,
+    2027
   ],
-  "rows": 180628,
-  "layout_source": "hard-coded (docx unavailable)",
+  "partial_years": [
+    2027
+  ],
+  "rows": 547655,
+  "layout_source": "local file YYsumdat Record layout.docx",
   "names_source": "RMA sobcov lookups",
   "aip_source": "delivery_channel",
   "aip_file": null,

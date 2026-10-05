@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep line endings correct so the launchers run on each OS after cloning
+*.bat      text eol=crlf
+*.command  text eol=lf
+*.py       text eol=lf
+*.ipynb    text eol=lf
+*.md       text eol=lf
