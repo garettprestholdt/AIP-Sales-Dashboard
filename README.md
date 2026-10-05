@@ -3,7 +3,7 @@
 Sales dashboard built on USDA RMA Summary of Business (SOB) data: premium, indemnity, loss ratio,
 liability, policies and acres, filterable by crop year, commodity, insurance plan and state.
 
-## Opening the dashboard (no technical steps)
+## Opening the dashboard
 
 1. **One-time:** install Python 3.10 or newer from <https://www.python.org/downloads/>
    (on Windows, tick **"Add Python to PATH"** during install).
