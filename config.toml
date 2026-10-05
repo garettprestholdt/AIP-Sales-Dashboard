@@ -1,0 +1,15 @@
+# Streamlit settings for the dashboard (read automatically when started from this folder).
+[server]
+headless = true          # the launcher opens the browser itself; also skips Streamlit's first-run email prompt
+runOnSave = false
+
+[browser]
+gatherUsageStats = false # don't send usage statistics to Streamlit
+
+[theme]
+base = "light"
+primaryColor = "#52514e"            # neutral: data colors are reserved for the measures
+backgroundColor = "#fcfcfb"
+secondaryBackgroundColor = "#f3f2ee"
+textColor = "#0b0b0b"
+font = "sans serif"

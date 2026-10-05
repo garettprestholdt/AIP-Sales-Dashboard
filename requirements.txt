@@ -2,7 +2,5 @@ pandas>=2.0
 requests>=2.31
 pyarrow>=14        # parquet storage
 python-docx>=1.1   # reads the RMA record layout (.docx); built-in copy used if missing
-plotly>=5.19       # 5.19+ for rounded bar ends (older versions still work)
-ipywidgets>=8.1
-voila>=0.5         # serves dashboard.ipynb as a web page with the code hidden
-# For editing the notebook (developers only): pip install jupyterlab
+plotly>=5.19       # charts
+streamlit>=1.40    # serves dashboard.py as a web page
