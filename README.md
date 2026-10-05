@@ -21,7 +21,8 @@ On a Mac, run `chmod +x "Open Dashboard.command"` once in Terminal so it can be 
 
 | File | Purpose |
 |---|---|
-| `Open Dashboard.bat` / `.command` | One-click start (Windows / Mac) |
+| **`Open Dashboard.bat` / `.command`** | One-click start (Windows / Mac) |
+| **`Crop Insurance Sales Dashboard.pdf`** | PDF of dashboard browser window; partially cutoff due to dimensions |
 | `launch_dashboard.py` | Sets up a private Python environment (`.venv`) on first run, then starts the dashboard and opens the browser |
 | `data_pipeline.py` | Downloads RMA files, parses them, writes `data/processed/sob_fact.parquet` |
 | `dashboard.py` | The dashboard (a Streamlit app) |
@@ -30,7 +31,6 @@ On a Mac, run `chmod +x "Open Dashboard.command"` once in Terminal so it can be 
 | `data/raw/` | One zip per downloaded RMA file (nothing else is kept) |
 | `data/processed/` | `sob_fact.parquet` + `meta.json` read by the dashboard |
 | `data/reference/` | RMA record layout `.docx` (downloaded automatically) |
-| `Crop Insurance Sales Dashboard.pdf` | PDF of dashboard browser window; partially cutoff due to dimensions |
 
 ## How data stays current
 
